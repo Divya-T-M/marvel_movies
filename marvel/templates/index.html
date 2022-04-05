@@ -1,0 +1,332 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><span>MOVIES</span>SPOT</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">home</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#movies">movies</a></li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>amazing marvel movies</h3>
+        <h1>welcome marvel fans</h1>
+        <p>We provide you with everything you need to know about the Marvel cinematic Universe. Right from the beginning of the
+            new era, the emergence of The Avengers, till the latest of their outings! We ensure genuine content and flawless
+            experience while you recapture the moments as they truly were!
+        </p>
+        <a href="#" class="btn">get started</a>
+    </div>
+
+    <div class="image">
+        <img src="{% static 'images/home-img-min.png' %}" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+ <h1 class="heading"> <span>superheroes</span> gallery </h1>
+
+ <div class="box-container">
+
+    <div class="box">
+        <img src="{% static 'images/img1-min.png' %}" alt="">
+        <div class="info">
+            <h3>captain america</h3>
+            <p>Captain America is a superhero appearing in American comic books published by Marvel Comics.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img2-min.png' %}" alt="">
+        <div class="info">
+            <h3>thor</h3>
+            <p>Thor Odinson, or simply Thor, is a fictional character appearing in American comic books published by Marvel Comics.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img3-min.png' %}" alt="">
+        <div class="info">
+            <h3>ant-man</h3>
+            <p>Ant-Man is the name of several superheroes appearing in books published by Marvel Comics.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img4-min.png' %}" alt="">
+        <div class="info">
+            <h3>drax</h3>
+            <p>Drax the Destroyer (Arthur Douglas) is a fictional character appearing in American comic books published by Marvel Comics.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img5-min.png' %}" alt="">
+        <div class="info">
+            <h3>captain marvel</h3>
+            <p>Captain Marvel is a 2019 American superhero film based on Marvel Comics featuring the character Captain Marvel.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img6-min.png' %}" alt="">
+        <div class="info">
+            <h3>spider-man</h3>
+            <p>Spider-Man is a superhero appearing in American comic books published by Marvel Comics.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img7-min.png' %}" alt="">
+        <div class="info">
+            <h3>doctor strange</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, harum.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img8-min.png' %}" alt="">
+        <div class="info">
+            <h3>black panther</h3>
+            <p>Black Panther is a 2018 American superhero film based on the Marvel Comics character of the same name.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="{% static 'images/img9-min.png' %}" alt="">
+        <div class="info">
+            <h3>iron-man</h3>
+            <p>Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+
+ </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> avengers </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="{% static 'images/about-img-min.png' %}" alt="">
+        </div>
+
+        <div class="content">
+            <h3>marvel avengers is amazing</h3>
+            <p>We provide an ultimate solution for movie buffs to upload, stream, remove movies of your likings in a single platform irrespective of their genre, content, language or any other criteria!</p>
+            <p>A team of Earth's against outside and inside threads!</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- movies section starts  -->
+
+<section class="movies" id="movies">
+
+    <h1 class="heading"> <span>marvel</span> movies </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="{% static 'images/m1-min.jpg' %}" alt="">
+            <div class="info">
+                <h3>marvel avengers 2012</h3>
+                <span> action, sci-fi, thriller, comedy </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Marvel's The Avengers[6] (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland),[3][7] or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p>
+                <a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/m2-min.jpg' %}" alt="">
+            <div class="info">
+                <h3>avengers age of ultron</h3>
+                <span> action, sci-fi, thriller, comedy </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Avengers: Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and the 11th film in the Marvel Cinematic Universe (MCU).</p>
+                <a href="https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/m3-min.jpg' %}" alt="">
+            <div class="info">
+                <h3>captain america: civil war</h3>
+                <span> action, sci-fi, thriller, comedy </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Captain America: Civil War is a 2016 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and Captain America: The Winter Soldier (2014), and the 13th film in the Marvel Cinematic Universe (MCU).</p>
+                <a href="https://en.wikipedia.org/wiki/Captain_America:_Civil_War" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/m4-min.jpg' %}" alt="">
+            <div class="info">
+                <h3>avengers: infinity war</h3>
+                <span> action, sci-fi, thriller, comedy </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p> Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and Avengers: Age of Ultron (2015), and the 19th film in the Marvel Cinematic Universe (MCU).</p>
+                <a href="https://en.wikipedia.org/wiki/Avengers:_Infinity_War" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/m5-min.jpg' %}" alt="">
+            <div class="info">
+                <h3>Thor:Ragnarok</h3>
+                <span> action, sci-fi, thriller, comedy </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Thor: Ragnarok is a 2017 American superhero film based on the Marvel Comics character Thor, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Thor (2011) and Thor: The Dark World (2013), and the 17th film in the Marvel Cinematic Universe (MCU).</p>
+                <a href="https://en.wikipedia.org/wiki/Thor:_Ragnarok" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'images/m6-min.jpg' %}" alt="">
+            <div class="info">
+                <h3>avengers: endgame</h3>
+                <span> action, sci-fi, thriller, comedy </span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p> Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU).</p>
+                <a href="https://en.wikipedia.org/wiki/Avengers:_Endgame" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- movies section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="share">
+        <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+        <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+    </div>
+
+    <h1 class="credit">&copy; <a href="#">Movies spot</a>| all rights reserved! </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+<!-- scroll top  -->
+
+<a href="#home" class="scroll-top">
+    <img src="{% static 'images/scroll-img-min.png' %}" alt="">
+</a>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="{% static 'script.js' %}"></script>
+
+</body>
+</html>
